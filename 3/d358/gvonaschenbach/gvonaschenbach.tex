@@ -1,0 +1,206 @@
+\documentclass[12pt,a4paper]{article}
+
+% ================================================================
+% PAGE SETUP 
+% ================================================================
+
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{changepage}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{0}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\centering}
+  {}{0pt}{}
+
+% ================================================================
+% TYPESETTING AND LANGUAGE
+% ================================================================
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage[normalem]{ulem}
+\newenvironment{longquote}
+{%
+    \vspace{-1.5em}
+    \begin{adjustwidth}{2cm}{2cm}
+        \fontsize{10}{12}\selectfont
+        \singlespacing
+        \itshape
+    }
+{%
+    \end{adjustwidth}
+}
+
+% ================================================================
+% FOOTNOTES AND BIBLIOGRAPHY   
+% ================================================================
+
+\usepackage[
+    backend=biber,
+    style=deutschstellenbosch,
+    autocite=footnote
+]{biblatex}
+
+\addbibresource{quellen.bib}
+
+\makeatletter
+\renewcommand{\footnotesize}{%
+    \def\baselinestretch{1}%
+    \@setfontsize\footnotesize{10}{12}%
+}
+\makeatother
+
+\usepackage[hidelinks,hyperfootnotes=true]{hyperref}
+
+% ================================================================
+% METADATA
+% ================================================================
+
+% Replace these values with your own content.
+\newcommand{\CoverCourse}{Deutsch 358}
+\newcommand{\CoverInstructor}{Doktor Isabel dos Santos}
+\newcommand{\CoverDate}{den 3. September 2026}
+\newcommand{\CoverDepartment}{Department of Modern Foreign Languages}
+\newcommand{\CoverStudent}{Barnard, Quin Charl \#27902277}
+\newcommand{\CoverEmail}{27902277@sun.ac.za}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+% ================================================================
+% COVER PAGE
+% ================================================================
+
+\pagenumbering{gobble}
+\begin{titlepage}
+\thispagestyle{empty}
+
+\vspace*{9cm}
+
+{\raggedleft
+    {\fontsize{30}{35}\selectfont GUSTAV VON ASCHENBACH ALS „ÄSTHETISCHER SOKRATIST“\par}
+\par}
+
+\vspace{0.76cm}
+
+{\raggedleft
+    {\itshape\fontsize{18}{22}\selectfont Versuch einer nietzscheanischen Charakteranalyse\par}
+\par}
+
+\vspace{1.1cm}
+
+\begin{raggedleft}
+   {\fontsize{18}{21}\selectfont \CoverCourse\par}
+    \vspace{0.07cm}
+    {\fontsize{11}{14}\selectfont
+      \CoverInstructor\par
+      \CoverDate\par
+      \CoverDepartment\par}
+\end{raggedleft}
+
+\vspace{1.4cm}
+
+\begin{raggedleft}
+    {\fontsize{15}{18}\selectfont \CoverStudent\par}
+    \vspace{0.1cm}
+    {\fontsize{10}{12}\selectfont \CoverEmail\par}
+\end{raggedleft}
+\end{titlepage}
+
+% ================================================================
+% TABLE OF CONTENTS
+% ================================================================
+
+\clearpage
+
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\tableofcontents
+
+\clearpage
+
+% ================================================================
+% BODY
+% ================================================================
+
+\onehalfspacing
+\setlength{\parskip}{0.5\baselineskip}
+
+\section{Einleitung}
+\begin{longquote}
+    »Dies sagt uns ein Dichter, der mit heroischer Kraft ein langes Leben hindurch dem Dionysus widerstanden hat — um am Ende desselben mit einer Glorification seines Gegners und einem Selbstmorde seine Laufbahn zu schliessen, einem Schwindelnden gleich, der, um nur dem entsetzlichen, nicht mehr erträglichen Wirbel zu entgehn, sich vom Thurme herunterstürzt. Jene Tragödie ist ein Protest gegen die Ausführbarkeit seiner Tendenz; ach, und sie war bereits ausgeführt! Das Wunderbare war geschehn: als der Dichter wiederrief, hatte bereits seine Tendenz gesiegt. Dionysus war bereits von der tragischen Bühne verscheucht und zwar durch eine aus Euripides redende dämonische Macht. Auch Euripides war in gewissem Sinne nur Maske: die Gottheit, die aus ihm redete, war nicht Dionysus, auch nicht Apollo, sondern ein ganz neugeborner Dämon, genannt Sokrates.«\autocite[84–85]{nietzsche1920}
+\end{longquote}
+
+Die Begriffe \textit{„Apollinisch“} und \textit{„Dionysisch“}, wie Nietzsche sie verwendet, sind vielfach untersucht. Laut Nietzsche, muss der Mensch allerdings nicht den einen oder den anderen Trieb vorziehen, sondern eine Gleichgewicht finden. Diejenige, die jene Gleichgewicht verleugnen und das Apollinische lieber wollen, werden im Buch \textit{Die Geburt der Tragödie} als \textit{„ästhetische Sokratisten“\autocite[87]{nietzsche1920}} bezeichnet. Diese Kritik verdeutlicht Katja Ludwig in ihrem Dialog: \textit{„Ich würde von meinem Standpunkt aus die Position, die Nietzsche angreift, als ‚extrem‘ bezeichnen: Eine Lebenshaltung, die durch ein „verabsolutierte[s] Verstandesdenken“ geprägt ist.“}\autocite[10]{ludwig}\par
+
+Der vorliegender Aufsatz analysiert Thomas Manns \textit{Gustav von Aschenbach} aus einer nietzscheanischen Perspektive und versucht ihn als \textit{„ästhetischer Sokratist“} zu deuten. Es wird dabei gezeigt, wie Aschenbach den Typus, den Nietzsche als der Kunst feindselig beschreibt, verkörpert und auch wie es vom Anfang deutlich ist, dass dieser notwendigerweise seinen eigenen Untergang verursacht. 
+
+\clearpage
+
+\section{Der ästhetische Sokratismus überhaupt}
+Um die Analyse erfolgreich leisten zu können, muss den Begriff \textit{ästhetischen Sokratismus} erst rigoros festgelegt werden. Weil Nietzsche den Wert der Mythen und Mythenideologie im Alltag betont, ist der von ihm verachteten \textit{ästhetischen Sokratismus} teilweise als eine „theoretische Distanz [von der Erfahrung]“\autocite[143]{müller2002} zu verstehen. Die Wirkung einer solchen Weltanschauung auf die Kunst wird von Ludwig erklärt:
+
+\begin{longquote}
+    »Der ‚ästhetische Sokratismus‘ fordert die bewusst–reflektierte Produktion einer Kunst, deren Schönheit an ihrer Verständigkeit gemessen wird, Nietzsche dagegen will das tragische Kunstwerk, das das Dasein durch die Vereinigung des Dionysischen und Apollinischen in seiner Gesamtheit erfasst und dem Genius, der als einziger zur Erzeugung dieser ‚großen‘ Kunst fähig ist, im Leben hält.«\autocite[13]{ludwig}
+\end{longquote}
+
+Wie oben erwähnt, handelt es sich hauptsächlich bei Nietzsche um einer Bilanz. Der ideale Künstler kann für ihn nicht lediglich „ein wissenschaftlicher Mensch“\autocite[84]{müller2017}, sondern muss auch ein „[kühner] Geist“\autocite{müller2017} sein.
+
+\section{Gustav von Aschenbach, der die Tragödie tötet}
+Der Leser weiß vom Anfang der Novelle, Aschenbach sei gebildet. Die Tatsachen, dass er „von Aschenbach“ heißt und seine Wohnung in der Prinzregentenstraße in München liegt\footnote{Thomas Manns Novelle \textit{„Der Tod in Venedig“} wird hier und im Folgenden zitiert nach: \cite[Hier: 7]{mann2025}}, zeugen davon, dass er auch einen guten Stand in der Gesellschaft hat. Weil sowohl die Bildung als auch das soziale Ansehen eine Art Ordnung darstellen, kann der Leser an diesem Punkt im Text voraussetzen, dass Aschenbach den apollinischen Trieb realisiert. Der Text suggeriert sogar einen Überschuss dessen: „der Schriftsteller [hatte] dem Fortschwingen des produzierenden Triebwerkes in seinem Innern […] nicht Einhalt zu tun vermocht“ (7).\par
+
+Dagegen wird später im Text beschrieben wie die Reiselust „als Anfall [auftritt] und ins Leidenschaftliche, ja bis zur Sinnestäuschung [steigert]“ (10). Weil Aschenbach hier Sinnestäuschung und Sehnsucht statt Zufriedenheit empfindet, könnte dieser Satz als Zeugnis davon, dass es ihm am Dionysischen mangelt, interpretiert werden. Der nächste Abschnitt, der „ein tropisches Sumpfgebiet unter dickdunstigem Himmel, feucht, üppig und ungeheuer, eine Art Urweltwildnis aus Inseln, Morästen und Schlamm führenden Wasserarmen“ darstellt, unterstüzt diese Behauptung. Freilich wird hier den \textit{locus amoenus}, der wegen des Verbandes mit dem Urzustand und der Natur mit dem Dionysischen zu vergleichen ist, geschildert.\\
+Der Mangel an Gleichmäßigkeit der hier inszeniert wird, belegt dass Aschenbach den Typus des ästhetischen Sokratist verkörpert. Jetzt ist Aschenbachs Beruf als Schriftsteller auch verständlicher: die Poesie als Gattung ist mit Apollon verbunden. Ursprünglich in Altgriechenland stammt die Lyrik aus der Musik und ist daher dionysisch, aber das Schreiben ist durch die Ablehnung der Musik differenziert worden.\par
+
+Auch nicht zufällig, dass das erste von Aschenbach veröffentlichtem Werk, das der Leser begegnet, eine „[klare] und [mächtige] Prosa–Epopöe vom Leben Friedrichs von Preußen“(15) ist. Die Form als „Prosa–Epopöe“ ist natürlich, gleich seinem Beruf, dem Apollinischen zuzuordnen. Die Gestaltung als „[klar]“ erinnert den Leser an dem Zitat von Ludwig: \textit{„die bewusst–reflektierte Produktion einer Kunst, deren Schönheit an ihrer Verständigkeit gemessen wird“}.\autocite[13]{ludwig} Die Thematik jenes Textes ist aber auch bedeutend. Friedrich von Preußen ist dafür bekannt, dass er Aufklärer und Erzieher war.
+
+\begin{longquote}
+    »Einem so Gesinnten erscheint dann der platonische Sokrates als der Lehrer einer ganz neuen Form der „griechischen Heiterkeit“ und Daseinsseligkeit, welche sich in Handlungen zu entladen sucht und diese Entladung zumeist in mäeutischen und erziehenden Einwirkungen auf edle Jünglinge, zum Zweck der endlichen Erzeugung des Genius, finden wird.«\autocite[105]{nietzsche1920}
+\end{longquote}
+
+\noindent Die griechische Heiterkeit könnte als Bezeichung für die Klassizismus, die am Ende des 18. Jahrhunderts wuchs und von sowohl Friedrich der Großen als auch Johann Joachim Winckelmann unterstützt war, gelesen wird. Weiterhin spürt Aschenbach im vierten Kapitel einen Drang dazu „den Phaidros über Sehnsucht und Tugend [zu belehren]“ (69), wo „Phaidros“ Tadzio bezeichnet. Aschenbach möchte sich gerne als platonischen Erzieher sehen. Die Tragödie ging an Sokrates zu Grunde\autocite[85]{nietzsche1920}, obzwar der sokratische Erzieher von seiner Gesellschaft als tugendhaft betrachtet wird. Als Ludwig den Erzieher im Zitat oben\autocite[13]{ludwig} erklärt, ist es wichtig zu merken dass dieser nicht dem, der Nietzsche als \textit{„[griechisch heiter]“} beschreibt, gleich ist. Der Erste ist der tragische Genius, weil in ihm das Apollinische und das Dionysische gleichmäßig sind und er den Höhepunkt der Kunst, die Tragödie, bearbeitet. Der Zweite irrt, indem er sich dem Ersten gleich denkt, aber er akzeptiert nicht das Dionysische und versucht es durch die Vernunft wegzuschaffen.
+
+\begin{longquote}
+    »Nun steht freilich neben dieser vereinzelten Erkenntniss, als einem Excess der Ehrlichkeit, wenn nicht des Uebermuthes, eine tiefsinnige Wahnvorstellung, welche zuerst in der Person des Sokrates zur Welt kam, jener unerstchütterliche Glaube, dass das Denken, an dem Leitfaden der Causalität, bis in die tiefsten Abgründe des Seins reiche, und dass das Denken das Sein nicht nur zu erkennen, sondern sogar zu \textit{corrigiren} im Stande sei.«\autocite[102]{nietzsche1920}
+\end{longquote}
+
+Als Aschenbach plötzlich \textit{„[wünscht] zu schreiben“}(70) wird auch den griechischen Gott Eros erwähnt. Weil Eros Gott der Liebe ist und für das Schöne steht, ist er mit dem nietzscheanischen Apollon zu vergleichen. Aschenbach erblickt in Tadzio die Urform des Schönen, etwa die tragische Einheit des Apollinischen und das Dionysischen, aber er ist nicht dazu fähig, eine ähnliche Schönheit zu erschaffen. Er widmet sich der \textit{„Produktion“}, doch ist deren Anlass ihm \textit{„[fast] gleichgültig“}. Aschenbach versucht gleichzeitig den Geist der Schönheit zu erfassen und verwirft ihn, weil dieser ein äußerlicher Gegenstand, daher unmittelbar unbegreiflich, ist. Indem \textit{„die Welt nur das schöne Werk, nicht auch seine Ursprünge, nicht seine Entstehungsbedingungen kennt“} (71), korrigiert Aschenbach die Realität. \textit{„[Hier] siegt die Schönheit über das dem Leben inhärirende Leiden, der Schmerz wird in einem gewissen Sinne aus den Zügen der Natur hinweggelogen.“}\autocite[113]{nietzsche1920} Der Erzähler sagt, dass die Entstehungsgeschichte von diesem Werk die Welt \textit{„oftmals verwirren“} und daher \textit{„die Wirkungen des Vortrefflichen aufheben“} (71) würde. Das inhärent Hässliche und Unbegreifliche — das \textit{Dionysische} — wird absichtlich beseitigt und verleugnet.
+
+\section{Die Tragödie, die Gustav von Aschenbach tötet}
+
+\begin{longquote}
+    »Darf überhaubt das Dionysische bestehen? Ist es nicht mit Gewalt aus dem hellenischen Boden auszurotten? Gewiss, sagt uns der Dichter [Euripides], wenn es nur möglich wäre; aber der Gott Dionysus ist zu mächtig; der verständigste Gegner — wie Pentheus in den „Bacchen“ — wird unvermuthet von ihm bezaubert und läuft nachhher mit dieser Verzauberung in sein Verhängniss.«\autocite[84]{nietzsche1920}
+\end{longquote}
+
+Doch lässt sich der Dionysische Trieb nicht für immer unterdrücken. Der früher erwähnte Mangel am Dionysischen als Aschenbach die Reiselust empfindet ist eine Vorausdeutung seines Todes. Nietzsches Meinung nach ist das Dionysische der Urtrieb des Menschen und die Ursprung der Sprache. Deswegen muss Aschenbach, der das Dionysische zu überwinden versucht, endlich vom Dionysischen heruntergebracht werden. Das Dionysische ist wegen des Chores in der Tragödie mit der Musik verbunden, deswegen könnte die Straßenmusikantenszene im fünften Kapitel als die Entwicklung der früheren Vorausdeutung - \textit{locus amoenus} - interpretiert werden. Tadzio erscheint auch in dieser Szene und stellt gleichzeitig Thanatos und Eros dar. Indem der Tod und das Leben als Tadzio auftauchen, ist Tadzio auch die edle Vermischung des Apollinischen und des Dionysischen — das Tragische. Das Dionysische greift Aschenbach völlig an.\\
+Es verhält sich ähnlich bei Aschenbachs Genuss des Schönen. Tadzio taucht oft mit einer \textit{„[roten] Masche} (50, unter anderen) auf, deren Farbe Erdbeeren gleicht. Aschenbach käuft sich \textit{„überreife und weiche [Erdbeeren]“} (108) obwohl er weiß, dass die Cholera in Venedig ist. Die Erdbeeren, die durch sowohl die Verbindung mit Tadzio als auch ihre gefährliche Süße Dionysisch sind, verursacht endlich Aschenbachs Tod. Er hatte die Gelegenheit zur Abfahrt, als er zum ersten Mal die Gefahr mitbekommt, aber er wagt es nicht, sich von Tadzio scheiden zu lassen. Es ist als ob Aschenbach von seiner Umgebung gelähmt wird, was auch diese endlich erlaubt ihn umzubringen.
+
+\clearpage
+
+\section{Schluss}
+
+Im vorliegenden Aufsatz wird Gustav von Aschenbach und den letzten Teil seines Lebens analysiert und interpretiert anhand der nietzscheanischen Perspektive. In \textit{Die Geburt der Tragödie} sagt Nietzsche aber, wie oben zitiert:
+
+\begin{longquote}
+»Dionysus war bereits von der tragischen Bühne verscheucht und zwar durch eine aus Euripides redende dämonische Macht. Auch Euripides war in gewissem Sinne nur Maske: \uline{die Gottheit, die aus ihm redete, war nicht Dionysus, auch nicht Apollo, sondern ein ganz neugeborner Dämon,} genannt Sokrates.«\autocite[84–85]{nietzsche1920}
+\end{longquote}
+
+Der Unterschied zwischen dem rein Apollinischen und dem ästhetisch Sokratischen ist desto wichtiger weil er subtil ist. Das Apollinische kann nicht ohne das Dionysische bestehen und auch umgekehrt. Der echte Tragiker versucht niemals diese Ordnung zu entkommen, aber Euripides sagt das Dionysische sei gewiss mit Gewalt aus dem hellenischen Boden auszurotten, wenn es nur möglich wäre. Ein übertriebener Apolliniker könnte nur in dem Sinne existieren, als er anerkennt er habe seine Existenz dem Dionysischen zu bedanken.\\
+Es ist hier explizit erörtert worden, dass Aschenbach nicht nur das Dionysische verkennt, sondern dessen in gewissermaßen bewusst ist und zu verdecken versucht. Die Tragödie wird aber notwendigerweise immer wieder geboren. Daher kann es Aschenbach nicht gelingen \textit{ästhetischer Sokratist} zu sein und muss er sterben.
+
+% ================================================================
+% BIBLIOGRAPHY
+% ================================================================
+
+\clearpage
+\printbibliography[
+    heading=bibintoc,
+    title={Literaturverzeichnis}
+]
+
+\end{document}

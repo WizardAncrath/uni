@@ -1,0 +1,188 @@
+\documentclass[12pt,a4paper]{article}
+
+% ================================================================
+% PAGE SETUP 
+% ================================================================
+
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{changepage}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{0}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\centering}
+  {}{0pt}{}
+
+% ================================================================
+% TYPESETTING AND LANGUAGE
+% ================================================================
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage[normalem]{ulem}
+\newenvironment{longquote}
+{%
+    \vspace{-1.5em}
+    \begin{adjustwidth}{2cm}{2cm}
+        \fontsize{10}{12}\selectfont
+        \singlespacing
+    }
+{%
+    \end{adjustwidth}
+}
+
+% ================================================================
+% FOOTNOTES AND BIBLIOGRAPHY   
+% ================================================================
+
+\usepackage[
+    backend=biber,
+    style=deutschstellenbosch,
+    autocite=footnote
+]{biblatex}
+
+\addbibresource{quellen.bib}
+
+\makeatletter
+\renewcommand{\footnotesize}{%
+    \def\baselinestretch{1}%
+    \@setfontsize\footnotesize{10}{12}%
+}
+\makeatother
+
+\usepackage[hidelinks,hyperfootnotes=true]{hyperref}
+
+% ================================================================
+% METADATA
+% ================================================================
+
+% Replace these values with your own content.
+\newcommand{\CoverCourse}{Deutsch 358}
+\newcommand{\CoverInstructor}{Professor Ingo Müller}
+\newcommand{\CoverDate}{den 30. Oktober 2026}
+\newcommand{\CoverDepartment}{Department of Modern Foreign Languages}
+\newcommand{\CoverStudent}{Barnard, Quin Charl \#27902277}
+\newcommand{\CoverEmail}{27902277@sun.ac.za}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+% ================================================================
+% COVER PAGE
+% ================================================================
+
+\pagenumbering{gobble}
+\begin{titlepage}
+\thispagestyle{empty}
+
+\vspace*{9cm}
+
+{\raggedleft
+{\fontsize{30}{35}\selectfont \texttt{/titel/}\par}
+\par}
+
+\vspace{0.76cm}
+
+{\raggedleft
+    {\itshape\fontsize{18}{22}\selectfont \texttt{/untertitel/}\par}
+\par}
+
+\vspace{1.1cm}
+
+\begin{raggedleft}
+   {\fontsize{18}{21}\selectfont \CoverCourse\par}
+    \vspace{0.07cm}
+    {\fontsize{11}{14}\selectfont
+      \CoverInstructor\par
+      \CoverDate\par
+      \CoverDepartment\par}
+\end{raggedleft}
+
+\vspace{1.4cm}
+
+\begin{raggedleft}
+    {\fontsize{15}{18}\selectfont \CoverStudent\par}
+    \vspace{0.1cm}
+    {\fontsize{10}{12}\selectfont \CoverEmail\par}
+\end{raggedleft}
+\end{titlepage}
+
+% ================================================================
+% TABLE OF CONTENTS
+% ================================================================
+
+\clearpage
+
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\tableofcontents
+
+\clearpage
+
+% ================================================================
+% BODY
+% ================================================================
+
+\onehalfspacing
+\setlength{\parskip}{0.5\baselineskip}
+
+\section{Einleitung}
+%
+Im Jahr 1912 erscheint Franz Kafkas Band \textit{„Betrachtung“}\footnote{Kafkas Sammlung \textit{„Betrachtung“} wird im Folgenden zitiert nach: \cite{kafka}}, der Erzählungen enthält, die sowohl von Angst, Scham und Schuld als auch von weniger drastischen Affekten geprägt sind. Da Kafkas Werk bereits vielfach anhand jener Affekte analysiert wurde, lohnt sich eine Analyse, die versucht, sich mit diesen weniger beachteten Affekten auseinanderzusetzen. \par
+%
+Die beiden längsten Erzählungen, nämlich \textit{„Kinder auf der Landstraße“} und \textit{„Unglücklichsein“} sind zu diesem Zweck besonders geeignet, da sie sehr detailliert darstellen, wie alltägliche Ereignisse von den Protagonisten erlebt werden und wie ihn diese  aus der Gleichgewicht bringen. Es gibt eine weitere Ähnlichkeit zwischen den erwähnten Geschichten: es ist jeweils die Rede von einem Protagonisten, der auf jemanden wartet. Als die erwartene Person zum Vorschein kommt, streiten sich aber die Figuren, und sind sie sich nicht darüber einverstanden, was zwischen ihnen geschieht und geschehen ist. Wie genau diese Verunsicherung sich gestaltet und auf den Leser wirkt, kann anhand der Affekte wie Unsicherheit\footnote{Es muss zwischen Unsicherheit als Zweifel an der Tatsachen und als Gefühl der Gefahr unterschieden werden. Der vorliegende Aufsatz bezeichnet erstere als „epistemologische Unsicherheit“ und letztere als „affektive Unsicherheit“.}, Verdruss und Unbehagen untersucht werden. Wegen den Ähnlichkeiten, lassen sich die Geschichten vergleichen, um endlich die Frage der Verunsicherung erfolgreich forschen zu können.  \par 
+%
+\clearpage
+%
+\section{Die Titel}
+%
+\begin{center}
+\texttt{/soll hier noch was geschrieben sein? komm zurück als die nächste 2 Teile fertig sind und beurteile, ob es sinnvoll/nützlich ist!/}
+\end{center}
+%
+\clearpage
+%
+\section{Kinder auf der Landstraße}
+%
+Die Aussage \textit{„[…] daß es eine Schande war“} (6) wird nie ergänzt. Es wundert den Leser, daß der Erzähler auf eine Schande verweist und nichts weiteres über sie sagt. Vermutlich wird diesen Satz lediglich teilweise von dem Protagonisten gehört da die Arbeiter von dem Protagonisten distanziert sind. Deswegen ist es wahrscheinlich unwichtig zu wissen, was für eine Schande erwähnt wird, jedoch kreiert dieser Satzteil die Erwartung, dass etwas schlimmes passieren wird. Da das Schlimme im Wesentlichen nicht eintritt, wird die Zuverlässigkeit der Kausalität in der Novelle hinterfragt. Dem Leser ist es nicht möglich unbedingt zu wissen, warum eine gewisse Tätigkeit von dem Erzähler genannt wird, trotzdem muss sich der Leser auf den Erzähler verlassen.\par
+%
+Der Protagonist betrachtet fliegende Vögel \textit{„bis [er] nicht mehr [glaube], daß sie [steigen], sondern daß [er falle]“ (6)}. Hier ist die Tätigkeit des Erzählers an sich zwar eine Alltägliche, doch bietet der Erzähler eine interessante Perspektive. Bewegung wird als unmittelbar relativ dargestellt, das heißt, der Bezugsrahmen kann notwendigerweise nicht absolut festgelegt werden. Der Perspektivwechsel ist für den Protagonisten herausfordernd, also muss er sich \textit{„aus Schwäche“} (6) an den Seilen halten, wobei er zu schaukeln beginnt. Seine Perspektive hat sich völlig umgekehrt, was ihn schwächt; aber um sich zu sichern, verlässt er sich auf die Seile einer Schaukel. Der eine schwankende Boden wird fast wortwörtlich gegen einen anderen getauscht, wodurch der Protagonist die Relativität seiner Lage bestätigt und auch annimmt.\autocite[see 58f]{fuchs} Als die heiße Sommerluft kühler wird und \textit{„Zitternde Sterne“} (6) die Vögel ersätzen, traut sich der Protagonist höher zu schaukeln. Beim Schaukeln ändert sich ständig die Perspektive, aber jetzt ist der Wechsel vom Protagonisten beabsichtigt. Daher fühlt sich der Protagonist etwa sicherer; eine Tatsache, die „die Spannung zwischen Mobilität und Immobilität“ betont.\autocite[128]{horstkotte2014}\par 
+%
+Als nächstes wird der Protagonist vom Fenster ausgefragt, allerdings bekommt der Leser die Frage, die den Protagonisten staunen lässt, nicht mit. Weil der Fragende mit einem Gebirge verglichen wird, ist es abzuleiten, dass die Frage oder sogar der Fragende selbst fürchterlich auf den Protagonisten wirkt. Andererseits wird auch \textit{„die bloße Luft“} (6) genannt, als ob es keine feste Interpretationen der Frage gibt. Bisher hat der Protagonist lediglich seine Gegenstände betrachtet und er fand schon das in gewissermaßen unangenehm. Als ihn plötzlich jemand herbeizieht, weiß er überhaupt nicht was zu tun oder zu sagen ist. Laut Waldemar Fromm ist die Betrachtung aber keine passive, sondern eine aktive Tätigkeit. Hier wird „das Verhältnis von Wahrnehmung und Subjektivität“\autocite[104]{fromm} dargestellt. Indem der Protagonist staunt, verköpert er die „Unmöglichkeit von Präsenz“\autocite{fromm}. Dem Protagonisten ist es nicht nur unmöglich präsent zu sein, sondern auch seinem Willen zuwider.\par
+%
+Das ist vielleicht warum er beim Aufstehen seufzt: er erkennt an, dass „die Andere“ auf ihn warten, doch scheint es als ob er nicht sein Zuhause verlassen will. Wieder scheint es an Kausalität zu mangeln, als der Protagonist ruft: \textit{„Gott sei Dank, da seid Ihr endlich!“} (7) Die andere Figur ist anscheinend eher unsympathisch, weil sie das Seufzen des Ich ermahnt, und ihm vorwirft er komme immer zu spät. Daneben verwendet das Ich das Höflichkeitsform „Ihr“, wogegen das Andere „Du“ sagt; somit gibt es ein Machsverhältnis. Also erwartet der Leser, dass das Ich nicht mitgehen wollen würde, und ist von seinem Aufschrei überrascht. Das Andere befiehl sogar den Erzähler, zuhause zu bleiben, worauf der Erzähler Anstoß nimmt. Hier tauchen zwei unterschiedliche Formen der Unsicherheit auf:\\
+%
+\vspace{-1.25em}
+\begin{adjustwidth}{1em}{0cm}
+    \begin{enumerate}
+        \item Affektive Unsicherheit, da das Ich dem Anderen untergeordnet ist und jederzeit von ihm beleidigt werden kann.
+        \item Epistemologische Unsicherheit, da das Ich nicht scheinbar nicht mitgehen will, es trotzdem tut und daher nicht weiß, was demnächst passieren wird.
+    \end{enumerate}
+\end{adjustwidth}
+%
+Wie bereits erwähnt, ändert sich die Perspektive des Erzählers ständig. Dieser Wechsel inszeniert gleichzeitig diese beide Formen der Unsicherheit, was endlich eine Aussichtslosigkeit beim Protagonisten erschafft. Di Mauro erklärt die Widersprüchlichkeit als das Andere mit dem Ich redet als Folge dessen: „Es kommt also, wie bereits gesagt, zu keiner Entscheidung, die Aussichtslosigkeit steht allen Zukunftsplänen entgegen.“\autocite[60]{mauro}. Der Protagonist geht gegen seinen Willen mit dem Anderen, weil er sich so unwohl fühlt, dass er weder das Bleiben noch das Gehen wählen kann, folglich die Wahl dem Anderen überlässt.
+\clearpage
+%
+\section{Unglücklichsein}
+%
+\clearpage
+%
+\section{Synthese}
+%
+\clearpage
+%
+\section{Schluss}
+%
+% ================================================================
+% BIBLIOGRAPHY
+% ================================================================
+\clearpage
+\printbibliography[
+    title={Literaturverzeichnis}
+]
+
+\end{document}

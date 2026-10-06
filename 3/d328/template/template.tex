@@ -1,0 +1,177 @@
+\documentclass[12pt,a4paper]{article}
+
+% ================================================================
+% PAGE SETUP 
+% ================================================================
+
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{changepage}
+\usepackage{titlesec}
+
+% Keep section titles in the table of contents without printing numbers.
+\setcounter{secnumdepth}{0}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\centering}
+  {}{0pt}{}
+
+% ================================================================
+% TYPESETTING AND LANGUAGE
+% ================================================================
+
+\usepackage{lipsum}
+\usepackage{newtxtext,newtxmath}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\newenvironment{longquote}
+{%
+    % changepage's list receives \partopsep only above the quote.
+    % Removing it keeps the surrounding \parskip equal above and below.
+    \setlength{\partopsep}{0pt}%
+    \begin{adjustwidth}{2cm}{2cm}%
+        \fontsize{10}{12}\selectfont
+        \singlespacing
+        \itshape
+    }
+{%
+    \end{adjustwidth}%
+}
+
+% ================================================================
+% FOOTNOTES AND BIBLIOGRAPHY   
+% ================================================================
+
+\usepackage[
+    backend=biber,
+    style=deutschstellenbosch,
+    autocite=footnote
+]{biblatex}
+
+\addbibresource{quellen.bib}
+
+\makeatletter
+\renewcommand{\footnotesize}{%
+    \def\baselinestretch{1}%
+    \@setfontsize\footnotesize{10}{12}%
+}
+\makeatother
+
+\usepackage[hidelinks,hyperfootnotes=true]{hyperref}
+
+% ================================================================
+% METADATA
+% ================================================================
+
+% Replace these values with your own content.
+\newcommand{\CoverCourse}{Deutsch 328}
+\newcommand{\CoverInstructor}{Doktor Isabel dos Santos}
+\newcommand{\CoverDate}{*DATE*}
+\newcommand{\CoverDepartment}{Department of Modern Foreign Languages}
+\newcommand{\CoverStudent}{Barnard, Quin Charl \#27902277}
+\newcommand{\CoverEmail}{27902277@sun.ac.za}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+% ================================================================
+% COVER PAGE
+% ================================================================
+
+\pagenumbering{gobble}
+\begin{titlepage}
+\thispagestyle{empty}
+
+\vspace*{3.55in}
+
+{\raggedleft
+    {\fontsize{30}{35}\selectfont *TITLE HERE*\par}
+\par}
+
+\vspace{0.30in}
+
+{\raggedleft
+    {\itshape\fontsize{18}{22}\selectfont *Subtitle Here*\par}
+\par}
+
+\vspace{0.45in}
+
+\begin{raggedleft}
+   {\fontsize{18}{21}\selectfont \CoverCourse\par}
+    \vspace{0.03in}
+    {\fontsize{11}{14}\selectfont
+      \CoverInstructor\par
+      \CoverDate\par
+      \CoverDepartment\par}
+\end{raggedleft}
+
+\vspace{0.55in}
+
+\begin{raggedleft}
+    {\fontsize{15}{18}\selectfont \CoverStudent\par}
+    \vspace{0.04in}
+    {\fontsize{10}{12}\selectfont \CoverEmail\par}
+\end{raggedleft}
+\end{titlepage}
+
+% ================================================================
+% TABLE OF CONTENTS
+% ================================================================
+
+\clearpage
+
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\tableofcontents
+
+\clearpage
+
+% ================================================================
+% BODY
+% ================================================================
+
+\onehalfspacing
+\setlength{\parskip}{0.5\baselineskip}
+\setlength{\parindent}{0pt}
+
+\section{Einleitung}
+Replace this section with your main document content.\autocite{schmidt_dengler_b}\par
+
+\section{Main Section}
+These\autocite{siegel2009}\\
+are\autocite{kafka1996}\\
+for\autocite{engel2010}\\
+testing\autocite{valk2003}\\
+the\autocite{nerad2003}\\
+references.\autocite{speicher2010}\\
+I\autocite{brittnacher}\\
+need\autocite{kafka_strafkolonie}\\
+even\autocite{beispiel_multiple_authors}\\
+more\autocite{schmidt_dengler_a}\\
+test\autocite{beispiel_multiple_editors}\\
+references\autocite{schmidt_dengler_a}\\
+for\autocite{schmidt_dengler_a}\\
+data.\autocite{schmidt_dengler_b}\\
+
+\subsection{Example Subsection}
+
+\section{Conclusion}
+\lipsum[1-2]
+
+\begin{longquote}
+\lipsum[3]
+\end{longquote}
+
+\lipsum[4]
+
+% ================================================================
+% BIBLIOGRAPHY
+% ================================================================
+
+\clearpage
+\printbibliography[
+    heading=bibintoc,
+    title={Literaturverzeichnis}
+]
+
+\end{document}

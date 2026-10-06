@@ -1,0 +1,13 @@
+**/*.aux
+**/*.pdf
+**/*.bbl
+**/*.bcf
+**/*.blg
+**/*.fls
+**/*.log
+**/*.out
+**/*.toc
+**/*.bbx
+**/*.cbx
+**/*.bib
+**/*.synctex.gz
