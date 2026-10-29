@@ -1,0 +1,312 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{mauro}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=243a2dda24aa30ae957b9619462b187b}{%
+           family={Di\bibnamedelima Mauro},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=77266cb0bfd9f8a9d07d65df58baf2b8}{%
+           family={Neumeyer},
+           familyi={N\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4048cf522139315a176cff74ffe0aeaf}{%
+           family={Steffens},
+           familyi={S\bibinitperiod},
+           given={Wilko},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Würzburg}%
+      }
+      \strng{namehash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{fullhash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{fullhashraw}{243a2dda24aa30ae957b9619462b187b}
+      \strng{bibnamehash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{authorbibnamehash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{authornamehash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{authorfullhash}{243a2dda24aa30ae957b9619462b187b}
+      \strng{authorfullhashraw}{243a2dda24aa30ae957b9619462b187b}
+      \strng{editorbibnamehash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editornamehash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editorfullhash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editorfullhashraw}{bf79508a5801c153f74c524d84c64246}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Kafkas Betrachtung}
+      \field{subtitle}{Die voyeuristische Haltung Kafkas in \textit{Betrachtung}}
+      \field{title}{Der gefesselte Zuschauer}
+      \field{year}{2013}
+      \field{pages}{53\bibrangedash 72}
+      \range{pages}{20}
+    \endentry
+    \entry{fromm}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=ab26e7acd2f6d2159a08687bd95bf8d5}{%
+           family={Fromm},
+           familyi={F\bibinitperiod},
+           given={Waldemar},
+           giveni={W\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=77266cb0bfd9f8a9d07d65df58baf2b8}{%
+           family={Neumeyer},
+           familyi={N\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4048cf522139315a176cff74ffe0aeaf}{%
+           family={Steffens},
+           familyi={S\bibinitperiod},
+           given={Wilko},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Würzburg}%
+      }
+      \strng{namehash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{fullhash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{fullhashraw}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{bibnamehash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{authorbibnamehash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{authornamehash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{authorfullhash}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{authorfullhashraw}{ab26e7acd2f6d2159a08687bd95bf8d5}
+      \strng{editorbibnamehash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editornamehash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editorfullhash}{bf79508a5801c153f74c524d84c64246}
+      \strng{editorfullhashraw}{bf79508a5801c153f74c524d84c64246}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Kafkas Betrachtung}
+      \field{subtitle}{Anfänge einer Poetik des Schreibens in der Betrachtung}
+      \field{title}{Wort und Geste}
+      \field{year}{2013}
+      \field{pages}{101\bibrangedash 118}
+      \range{pages}{18}
+    \endentry
+    \entry{fuchs}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=89984691d42bb0941bbcbea3ea8be249}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=fe43fcaf44414c9300c3f6eb6e2cea63}{%
+           family={Kling},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa7983443f0eaeaca2c22826c60871d9}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Johannes\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Würzburg}%
+      }
+      \strng{namehash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{fullhash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{fullhashraw}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{bibnamehash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{authorbibnamehash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{authornamehash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{authorfullhash}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{authorfullhashraw}{89984691d42bb0941bbcbea3ea8be249}
+      \strng{editorbibnamehash}{9834ca4d9decdfaec7fa90a2e541b89a}
+      \strng{editornamehash}{9834ca4d9decdfaec7fa90a2e541b89a}
+      \strng{editorfullhash}{9834ca4d9decdfaec7fa90a2e541b89a}
+      \strng{editorfullhashraw}{9834ca4d9decdfaec7fa90a2e541b89a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booksubtitle}{Forschungen der deutschen Kafka-Gesellschaft. Band 7}
+      \field{booktitle}{Kafkas Zeiten}
+      \field{title}{Posthumane Figurationen von Beschleunigung, Tempo und Bewegungseuphorie in Kafkas Betrachtung}
+      \field{year}{2023}
+      \field{pages}{58\bibrangedash 76}
+      \range{pages}{19}
+    \endentry
+    \entry{gosetti2021}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=f0cd195c5e0ac394075ebe5b3f35c15b}{%
+           family={Gosetti-Ferencei},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Jennifer\bibnamedelima Anna},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3274c30449d193a750fcb8dca10b94f6}{%
+           family={Duttlinger},
+           familyi={D\bibinitperiod},
+           given={Carolin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=00d18eaee2c32c7ba20e081fcbb68e06}{%
+           family={Hilliard},
+           familyi={H\bibinitperiod},
+           given={K.F.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=44994e3958c7ac55282bfedd895de563}{%
+           family={Louth},
+           familyi={L\bibinitperiod},
+           given={Charlie},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \strng{namehash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{fullhash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{fullhashraw}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{bibnamehash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{authorbibnamehash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{authornamehash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{authorfullhash}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{authorfullhashraw}{f0cd195c5e0ac394075ebe5b3f35c15b}
+      \strng{editorbibnamehash}{c03dbca8fd615e694ef9a6dcc2001b79}
+      \strng{editornamehash}{c03dbca8fd615e694ef9a6dcc2001b79}
+      \strng{editorfullhash}{c03dbca8fd615e694ef9a6dcc2001b79}
+      \strng{editorfullhashraw}{c03dbca8fd615e694ef9a6dcc2001b79}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{From the Enlightenment to Modernism: Three Centuries of German Literature}
+      \field{title}{Uncertainty, Realism, and the Self in Kafka}
+      \field{year}{2021}
+    \endentry
+    \entry{horstkotte2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea12ac8ab9609bea0366386f40dddc94}{%
+           family={Horstkotte},
+           familyi={H\bibinitperiod},
+           given={Silke},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3274c30449d193a750fcb8dca10b94f6}{%
+           family={Duttlinger},
+           familyi={D\bibinitperiod},
+           given={Carolin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Freiburg u.a.}%
+      }
+      \strng{namehash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{fullhash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{fullhashraw}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{bibnamehash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{authorbibnamehash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{authornamehash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{authorfullhash}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{authorfullhashraw}{ea12ac8ab9609bea0366386f40dddc94}
+      \strng{editorbibnamehash}{3274c30449d193a750fcb8dca10b94f6}
+      \strng{editornamehash}{3274c30449d193a750fcb8dca10b94f6}
+      \strng{editorfullhash}{3274c30449d193a750fcb8dca10b94f6}
+      \strng{editorfullhashraw}{3274c30449d193a750fcb8dca10b94f6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booksubtitle}{Neue Lektüren}
+      \field{booktitle}{Kafkas Betrachtung}
+      \field{subtitle}{Zur Mobilisierung des Sehens in Betrachtung}
+      \field{title}{Kinematographisches Erzählen oder Poetik des »wenn«}
+      \field{year}{2014}
+      \field{pages}{115\bibrangedash 139}
+      \range{pages}{25}
+    \endentry
+    \entry{kafka}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=60be36656775fc7e4034ece6367e5162}{%
+           family={Kafka},
+           familyi={K\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \strng{namehash}{60be36656775fc7e4034ece6367e5162}
+      \strng{fullhash}{60be36656775fc7e4034ece6367e5162}
+      \strng{fullhashraw}{60be36656775fc7e4034ece6367e5162}
+      \strng{bibnamehash}{60be36656775fc7e4034ece6367e5162}
+      \strng{authorbibnamehash}{60be36656775fc7e4034ece6367e5162}
+      \strng{authornamehash}{60be36656775fc7e4034ece6367e5162}
+      \strng{authorfullhash}{60be36656775fc7e4034ece6367e5162}
+      \strng{authorfullhashraw}{60be36656775fc7e4034ece6367e5162}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Betrachtung}
+      \field{year}{1912}
+    \endentry
+    \entry{schwarz}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3a0459c06d002f8cc8e0981efd22a660}{%
+           family={Schwarz},
+           familyi={S\bibinitperiod},
+           given={Anette},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{fullhash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{fullhashraw}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{bibnamehash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{authorbibnamehash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{authornamehash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{authorfullhash}{3a0459c06d002f8cc8e0981efd22a660}
+      \strng{authorfullhashraw}{3a0459c06d002f8cc8e0981efd22a660}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{German Quarterly}
+      \field{title}{Benjamins Kafka: Im Zwielicht der Betrachtung}
+      \field{volume}{97}
+      \field{year}{2024}
+      \field{pages}{526\bibrangedash 528}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/gequ.12478
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/gequ.12478
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
